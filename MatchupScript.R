@@ -22,7 +22,7 @@ players <- nba_players()
 id <- players$idPlayer[players$namePlayer=="Stephen Curry"]
 
 #Add seasons
-years <- c("2017-18", "2018-19")
+years <- c("2018-19")
 
 #Get Regular Season Matchup Data
 get_rs_matchups <- function(year, id) {
