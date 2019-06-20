@@ -15,10 +15,6 @@ theme_owen <- function () {
 }
 
 
-playerName <- "James Harden"
-
-season <- "2018-19"
-
 get_data <- function(playerName, season, possessionMinimum) {
   
   players <- nba_players()
